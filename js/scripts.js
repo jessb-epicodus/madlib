@@ -32,7 +32,6 @@ $(document).ready(function() {
     const nounInput = $("input#noun").val();
 
     let inputsArray = [person1Input, person2Input, animalInput, exclamationInput, verbInput, nounInput];
-    
     let outputsArray = [".person1", ".person2", ".animal", ".exclamation", ".verb", ".noun"];
     
     let i =0;
